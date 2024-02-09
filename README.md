@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/driver733/kotlin-vs-java/blob/master/LICENSE.txt)
 
-Web page: [https://www.kotlinvsjava.com](https://www.kotlinvsjava.com)
+Web page: [https://davidbertet.github.io/kotlin-vs-java/](https://davidbertet.github.io/kotlin-vs-java/)
 
 Based on: [fabiomsr/from-java-to-kotlin](https://github.com/fabiomsr/from-java-to-kotlin)
 
