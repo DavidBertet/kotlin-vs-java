@@ -12,19 +12,10 @@ Based on: [fabiomsr/from-java-to-kotlin](https://github.com/fabiomsr/from-java-t
 
 ## Develop
 
-1. Install npm
-2. Install coffeescript
-
-    `npm install -g coffeescript`
-3. Install node-gyp
-
-    `npm install -g node-gyp`
-4. Install dependencies 
-
+1. Install dependencies
     `npm install`
-5. Generate HTML
-
-    `./make.coffee dev`
+2. Generate HTML
+    `npm run build`
 
 ## HTML generation
 

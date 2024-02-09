@@ -1,5 +1,4 @@
 @insert ../../start.html
-script (:async) (:src "https://www.googletagmanager.com/gtag/js?id=UA-127781126-2")
 script = "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-127781126-2');"
 script (:src "https://code.jquery.com/jquery-3.3.1.slim.min.js") (:integrity "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo") (:crossorigin "anonymous")
 script (:src "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js") (:integrity "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1") (:crossorigin "anonymous")
@@ -36,102 +35,102 @@ nav (:class "navbar navbar-dark navbar-expand-lg")
     ul (:class "navbar-nav")
       @if (@ index)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /index.html)
+          a (:class nav-link) (:href index.html)
             = Basics
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /index.html)
+          a (:class nav-link) (:href index.html)
             = Basics
       @if (@ classes)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /classes.html)
+          a (:class nav-link) (:href classes.html)
             = Classes
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /classes.html)
+          a (:class nav-link) (:href classes.html)
             = Classes
       @if (@ collections)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /collections.html)
+          a (:class nav-link) (:href collections.html)
             = Collections
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /collections.html)
+          a (:class nav-link) (:href collections.html)
             = Collections
       @if (@ concurrency)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /concurrency.html)
+          a (:class nav-link) (:href concurrency.html)
             = Concurrency
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /concurrency.html)
+          a (:class nav-link) (:href concurrency.html)
             = Concurrency
       @if (@ delegated_properties)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /delegated-properties.html)
+          a (:class nav-link) (:href delegated-properties.html)
             = Delegated Properties
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /delegated-properties.html)
+          a (:class nav-link) (:href delegated-properties.html)
             = Delegated Properties
       @if (@ dsl)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /dsl.html)
+          a (:class nav-link) (:href dsl.html)
             = DSL
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /dsl.html)
+          a (:class nav-link) (:href dsl.html)
             = DSL
       @if (@ functions)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /functions.html)
+          a (:class nav-link) (:href functions.html)
             = Functions
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /functions.html)
+          a (:class nav-link) (:href functions.html)
             = Functions
       @if (@ io)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /io.html)
+          a (:class nav-link) (:href io.html)
             = "I/O"
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /io.html)
+          a (:class nav-link) (:href io.html)
             = "I/O"
       @if (@ scoping_functions)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /scoping-functions.html)
+          a (:class nav-link) (:href scoping-functions.html)
             = Scoping Functions
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /scoping-functions.html)
+          a (:class nav-link) (:href scoping-functions.html)
             = Scoping Functions
       @if (@ spring_framework)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /spring-framework.html)
+          a (:class nav-link) (:href spring-framework.html)
             = Spring Framework
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /spring-framework.html)
+          a (:class nav-link) (:href spring-framework.html)
             = Spring Framework
       @if (@ error_prone)
         li (:class "nav-item px-2 active")
-          a (:class nav-link) (:href /error-prone.html)
+          a (:class nav-link) (:href error-prone.html)
             = Error prone
           span (:class sr-only)
             = (current)
         li (:class "nav-item px-2")
-          a (:class nav-link) (:href /error-prone.html)
+          a (:class nav-link) (:href error-prone.html)
             = Error prone
 
 a

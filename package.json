@@ -4,6 +4,8 @@
   "description": "Kotlin vs Java ------",
   "main": "index.js",
   "scripts": {
+    "build": "./make.coffee dev",
+    "watch": "./make.coffee watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jiyinyiyong, nilhcem, fabiomsr, driver733",
